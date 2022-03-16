@@ -9,10 +9,62 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
   <title>INDEX</title>
 </head>
+
 <body>
-    <h1>This is my INDEX page</h1>
-    <p>Here is bart</p>
-    <img src=>
-    <a href="data.html">Link to data page</a>
+  <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="index.html">Latitude</a>
+      <button class="banner navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="banner d-flex justify-content-end collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home<span class="sr-only"></span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Data</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Dropdown link
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  
+    <div class='row'>
+      <div class="col-sm-12 col-md-3">
+        <div class="row">
+          <h1>Visualizations</h1>
+        </div>
+        <a href="lat_vs_windspeed.html">
+          <img class="img-thumbnail" src="assets/images/lat_vs_windspeed_all.svg" width=125px/>
+        </a>
+        <a href="lat_vs_temp.html">
+          <img class="img-thumbnail" src="assets/images/lat_vs_temp_all.svg" width=125px/>
+        </a>
+        <a href="lat_vs_humidity.html">
+          <img class="img-thumbnail" src="assets/images/lat_vs_humidity_all.svg" width=125px/>
+        </a>
+        <a href="lat_vs_cloudiness.html">
+          <img class="img-thumbnail" src="assets/images/lat_vs_cloudiness_all.svg" width=125px/>
+        </a>
+      </div>
+      <div class="col-sm-12 col-md-8">
+        <div class="row">
+          <h1>Summary: Latitude vs. X</h1>
+        </div>
+        <img class="wrap_text" src="assets/images/lat_vs_temp_all.svg" width=200px/>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+    </div>
+  </div>
 </body>
 </html>

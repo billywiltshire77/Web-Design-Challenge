@@ -1,3 +1,25 @@
 h1 {
-    color:brown;
+    color: skyblue;
+}
+
+.banner{
+    background-color: skyblue;
+}
+
+body{
+    background-color: lightgray;
+}
+
+div{
+    background-color: white;
+    padding: 10px;
+}
+
+.wrap_text{
+    float: left;
+    margin: 5px;
+}
+
+p{
+    text-align: justify;
 }
