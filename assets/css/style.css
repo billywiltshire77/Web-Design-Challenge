@@ -10,7 +10,7 @@ h1 {
 }
 
 body{
-    background-color: skyblue;
+    background-color: lightgray;
 }
 
 div{
@@ -22,8 +22,16 @@ div{
     margin: 5px;
 }
 
+.column{
+    margin: 10px;
+}
+
 p{
     text-align: justify;
+}
+
+@media (max-width: 800px) {
+    
 }
 
 
