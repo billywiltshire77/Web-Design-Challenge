@@ -1,0 +1,37 @@
+h1 {
+    color: skyblue;
+    text-align: left;
+}
+
+.banner{
+    background-color: skyblue;
+    color: black;
+    padding: 5px;
+}
+
+body{
+    background-color: lightgray;
+}
+
+div{
+    background-color: white;
+}
+
+.wrap_text{
+    float: left;
+    margin: 5px;
+}
+
+.column{
+    margin: 10px;
+}
+
+p{
+    text-align: justify;
+}
+
+@media (max-width: 800px) {
+    
+}
+
+
