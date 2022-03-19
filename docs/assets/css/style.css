@@ -3,6 +3,10 @@ h1 {
     text-align: left;
 }
 
+nav{
+    background-color: lightskyblue;
+}
+
 body{
     background-color: lightgray;
 }
